@@ -2,7 +2,7 @@ import React, { lazy, memo } from 'react';
 import { connect } from 'react-redux';
 
 /**
- * Render page based on data and imported module
+ * Render page based on data and imported module and Redux mapping
  * @param       {Object} dynamicImportedModule imported page module
  * @param       {Object} data                  data for the page sent from the template and global state
  * @param       {Object} mapState              mapState function for Redux
