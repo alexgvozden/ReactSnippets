@@ -41,3 +41,8 @@ export const Page = (
 
 // memoize your component
 export default (...data) => memo(Page(...data));
+
+// example usage 
+// const dynamicModule = () => import('./Component.js');
+// const Component = Page(dynamicModule, { customVar: 1 }, state => state.variable, dispatch => dispatch.reducer.actionName);
+// then in React router you can say <Route component={Page} path="/some-path" /> 
